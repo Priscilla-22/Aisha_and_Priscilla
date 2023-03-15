@@ -26,3 +26,8 @@ INSTRUCTIONS:
 
 // Once you have read the above messages, you can delete all comments. 
 "use strict";
+
+let submit=document.querySelector("#submit");
+submit.addEventListener("click",()=>{
+  window.location.href='https://www.freecodecamp.com/email-submit';
+});
