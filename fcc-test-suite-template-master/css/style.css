@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fffefe;
+}
+header{
+    position: fixed;
+    margin: 10px;
+    padding:10px 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#header-img{
+    margin: 10px;
+    width: 15%;
+}
+#nav-bar{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+#form{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+#email{
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+}
+    
+#submit{
+    width: 100px;
+    padding: 10px;;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(251, 194, 50);
+    border-radius: 5px;
+    transition: all 0.8s ease;
+}
+#submit:hover{
+    background-color: rgb(228, 147, 25);
+}
+#video{
+    width: 100%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
